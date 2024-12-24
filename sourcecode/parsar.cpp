@@ -17,7 +17,7 @@ Token *Parser parser_in(Type type){
     return this->token;
 }
 
-SyntaxTree *Parser parser_parse(){
+SyntaxTree *Parser ::parser_parse(){
     return this->parser_parse_compound();
 }
 SyntaxTree *Parser :: parser_parse_id(){
