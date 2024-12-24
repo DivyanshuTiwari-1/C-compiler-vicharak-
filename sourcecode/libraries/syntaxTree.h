@@ -29,8 +29,8 @@ class SyntaxTree
     SyntaxTree(SyntaxType);
     void setName(string);
     string getName();
-    void setvalue(SyntaxTree *);
-    SyntaxTree *getvalue();
+    void setValue(SyntaxTree *);
+    SyntaxTree *getValue();
     void setDataType(int);
     int getDataType();
     SyntaxType getType();
